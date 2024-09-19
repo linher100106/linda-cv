@@ -239,7 +239,7 @@ span {
     height: 12px;
     background-color: #b74b4b;
     border-radius: 50%;
-    top: 1.5rem;
+    top: 2rem;
 }
 
 .timeline-date {
@@ -252,11 +252,13 @@ span {
     font-size: 1.4rem;
     font-weight: 500;
     color: #b74b4b;
+    padding-left: 1em;
 }
 
 .company {
     font-size: 1.6rem;
     font-weight: 700;
+    padding-left: 1em;
 }
 
 .timeline-details {
@@ -272,7 +274,7 @@ span {
 
 .timeline-details p {
     font-size: 1.2rem;
-    color: #ccc;
+    color: #e9a3a3;
 }
 
 /* Styles pour les points et sous-points */
@@ -280,6 +282,7 @@ span {
     list-style: none;
     padding-left: 1.5rem;
     margin-top: 1rem;
+    margin-bottom: 1.5em
 }
 
 .timeline-details ul li {
