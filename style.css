@@ -441,7 +441,7 @@ form button:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 10rem;
-    text-align: center;
+    text-align: left;
 }
 
 .interests h1 {
@@ -501,7 +501,7 @@ form button:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 10rem;
-    text-align: center;
+    text-align: left;
 }
 
 .education h1 {
@@ -521,7 +521,7 @@ form button:hover {
     margin-left: 20px;
     border-left: 2px solid #b74b4b;
     margin-bottom: 2rem;
-    position: relative;-
+    position: relative;
 }
 
 .education-item::before {
@@ -532,7 +532,7 @@ form button:hover {
     height: 12px;
     background-color: #b74b4b;
     border-radius: 50%;
-    top: 2rem;
+    top: 2.7rem;
 }
 
 .education-year h2 {
