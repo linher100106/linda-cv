@@ -1,118 +1,151 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Compétences — Linda SOHOUENOU</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Linda SOHOUENOU</a>
+        <nav id="navbar">
+            <a href="index.html">Accueil</a>
+            <a href="experience.html">Expériences</a>
+            <a href="competence.html" class="active">Compétences</a>
+            <a href="formation.html">Formations</a>
+            <a href="centre_interet.html">Centres d'intérêt</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Compétences</title>
-    </head>
+    <section class="skills">
+        <h1>Compétences</h1>
+        <p class="skill-desc">Spécialisée en assurance qualité logicielle et tests fonctionnels, j'interviens en environnements Agile/Scrum sur des projets de grande envergure. Ma pratique couvre la conception de plans de tests, la conduite de campagnes TNR, les tests API, ainsi que la gestion complète du cycle de vie des anomalies — de la détection jusqu'à la clôture.</p>
 
-    <body>
-        <header>
-            <a href="#" class="logo">SOHOUENOU Linda</a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="experience.html">Expériences</a>
-                <a href="competence.html" class="active">Compétences</a>
-                <a href="formation.html">Formations</a>
-                <a href="centre_interet.html">Centres d'intérêt</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+        <!-- Environnement technique -->
+        <h2 class="skill-title">Environnement technique</h2>
+        <div class="skills-container skills-grid">
 
-        <section class="skills">
-            <h1>Compétences</h1>
-            <div class="skill-desc">
-               <p>Durant ma formation en tant que testeur logiciel QA, j'ai acquis des notions dans l'identification des défauts et anomalies afin de m'assurer que les applications logicielles respectent les normes de qualité de l'entreprise. J'ai appris à créer et exécuter des cas de tests, ainsi qu'à documenter les défauts de manière claire et précise. Grâce aux travaux dirigés (TD), j'ai développé des compétences  en tests manuels, incluant la compréhension des langages HTML, CSS et JavaScript, essentiels pour tester les interfaces web.</p> 
-               <p>En complément, j'ai exploré l'automatisation des tests avec Python et le framework Selenium, ainsi que l'outil Postman pour tester les API (GET, POST, PUT, DELETE). Ma formation m'a également permis de me familiariser avec Git pour gérer le versioning du code et collaborer efficacement avec les développeurs, notamment via le pair testing, afin de garantir une intégration fluide des modifications. </p>
+            <div class="skill-item">
+                <i class="fa-solid fa-vial"></i>
+                <h2>Tests & Qualité</h2>
+                <p>Tests fonctionnels, TNR, tests de régression, tests API (REST/SOAP), gestion des anomalies</p>
             </div>
 
-            <!-- Hard Skills avec barres de progression -->
-            <div class="skills-container">
-                <div class="skill-item">
-                    <h2>Langages de Programmation</h2>
-                    <p>HTML, CSS, JavaScript, Python, SQL</p>
-                    <div class="programming-logos">
-                        <img src="images/logo-html.svg" alt="HTML" />
-                        <img src="images/logo-css.svg" alt="CSS" />
-                        <img src="images/JavaScript-logo.png"
-                            alt="JavaScript" />
-                        <img src="images/python-logo.svg" alt="Python" />
-                        <img src="images/logo - sql.png" alt="SQL" />
-                       
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <h2>API Postman</h2>
+            <div class="skill-item">
+                <i class="fa-solid fa-tools"></i>
+                <h2>Outils de test</h2>
+                <p>Postman, SoapUI, Laravel Dusk, Jenkins, Excel</p>
+                <div class="programming-logos">
                     <img src="images/logo-postman.svg" alt="Postman" />
-                   
-                </div>
-                <div class="skill-item">
-                    <h2>Selenium - Pytest</h2>
                     <img src="images/selenium-logo.svg" alt="Selenium" />
-                    
-                </div>
-                <div class="skill-item">
-                    <h2>Versioning</h2>
-                    <img src="images/logo-versionning.jpeg"
-                        alt="Version Control" />
-                   
-
-                </div>
-                <div class="skill-item">
-                    <h2>Pilotage de Prestations en Engagements de Résultats</h2>
-                    
-
-                </div>
-                <div class="skill-item">
-                    <h2>Conception et Automatisation des Tests</h2>
-                    <img src="images/automatisationdes test-logo.jpeg"
-                        alt="Automatisation" />
-                    
-
-                </div>
-                <div class="skill-item">
-                    <h2>Gestion de Projet</h2>
-                   
-
-                </div>
-                <div class="skill-item">
-                    <h2>Gestion des Risques</h2>
-                   
-
-                </div>
-                <div class="skill-item">
-                    <h2>Communication Écrite et Orale</h2>
-                    
-
-                </div>
-                <div class="skill-item">
-                    <h2>Rédaction de Rapports Clairs et Concis</h2>
-                    
                 </div>
             </div>
 
-            <!-- Soft Skills sans barres de progression -->
+            <div class="skill-item">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h2>Gestion de projet</h2>
+                <p>Agile, Scrum, Kanban, Jira, Confluence</p>
+            </div>
 
-            <section class="interests">
-                <h2 class="skill-title">Soft skills</h2>
-                <div class="interests-grid">
-                    <div class="interest-item">
-                        <h3>Adaptabilité</h3>
-                        <h3>Esprit d’équipe</h3>
-                        <h3>Curiosité technique</h3>
-                        <h3>Autonomie</h3>
-                    </div>
-                    <div class="interest-item">
-                        <h3>Rigueur</h3>
-                        <h3>Collaboration en équipe</h3>
-                        <h3>Résolution des problèmes</h3>
-
-                    </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-database"></i>
+                <h2>Bases de données & Dev</h2>
+                <p>SQL, DBeaver, GIT, Visual Studio Code, RCP, Bitvise SSH Client</p>
+                <div class="programming-logos">
+                    <img src="images/logo - sql.png" alt="SQL" />
+                    <img src="images/logo-versionning.jpeg" alt="GIT" />
                 </div>
-            </section>
-        </section>
-    </body>
+            </div>
 
+        </div>
+
+        <!-- Hard Skills -->
+        <h2 class="skill-title" style="margin-top: 4rem;">Hard Skills</h2>
+        <div class="skills-container skills-grid">
+
+            <div class="skill-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Gestion de projet</h2>
+                <p>Pilotage de plannings, coordination d'équipes, suivi d'avancement</p>
+            </div>
+
+            <div class="skill-item">
+                <i class="fa-solid fa-comment-dots"></i>
+                <h2>Communication</h2>
+                <p>Communication écrite et orale, animation de réunions, reporting aux équipes</p>
+            </div>
+
+            <div class="skill-item">
+                <i class="fa-solid fa-file-lines"></i>
+                <h2>Rédaction de rapports</h2>
+                <p>Rapports clairs et concis, documentation des anomalies, fiches de report</p>
+            </div>
+
+            <div class="skill-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Gestion des risques</h2>
+                <p>Identification, analyse et maîtrise des risques qualité en production</p>
+            </div>
+
+        </div>
+
+        <!-- Soft Skills -->
+        <h2 class="skill-title" style="margin-top: 4rem;">Soft Skills</h2>
+        <div class="interests-grid">
+            <div class="interest-item">
+                <i class="fa-solid fa-rotate"></i>
+                <h2>Adaptabilité</h2>
+                <p>Capacité à évoluer dans des contextes variés et à intégrer rapidement de nouveaux outils</p>
+            </div>
+            <div class="interest-item">
+                <i class="fa-solid fa-person-walking"></i>
+                <h2>Autonomie</h2>
+                <p>Prise en charge autonome des tâches et des responsabilités</p>
+            </div>
+            <div class="interest-item">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>Curiosité technique</h2>
+                <p>Veille active sur les évolutions du domaine QA et des outils de test</p>
+            </div>
+            <div class="interest-item">
+                <i class="fa-solid fa-users"></i>
+                <h2>Esprit d'équipe</h2>
+                <p>Collaboration efficace avec les équipes dev, fonctionnelles et MOA</p>
+            </div>
+            <div class="interest-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <h2>Rigueur</h2>
+                <p>Attention au détail, respect des processus et des normes qualité</p>
+            </div>
+            <div class="interest-item">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h2>Résolution de problèmes</h2>
+                <p>Analyse critique des anomalies et proposition de solutions adaptées</p>
+            </div>
+        </div>
+
+        <!-- Langues -->
+        <h2 class="skill-title" style="margin-top: 4rem;">Langues</h2>
+        <div class="skills-container skills-grid">
+            <div class="skill-item">
+                <i class="fa-solid fa-language"></i>
+                <h2>Français</h2>
+                <p>Langue maternelle</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-solid fa-language"></i>
+                <h2>Anglais</h2>
+                <p>Niveau B1 — Compréhension et expression professionnelle</p>
+            </div>
+        </div>
+
+    </section>
+    <script src="nav.js"></script>
+</body>
 </html>

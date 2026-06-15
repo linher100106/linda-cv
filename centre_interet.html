@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Centres d'intérêt</title>
+    <title>Centres d'intérêt — Linda SOHOUENOU</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">SOHOUENOU Linda</a>
-        <nav>
-            <a href="index.html">Home</a>
+        <a href="index.html" class="logo">Linda SOHOUENOU</a>
+        <nav id="navbar">
+            <a href="index.html">Accueil</a>
             <a href="experience.html">Expériences</a>
             <a href="competence.html">Compétences</a>
             <a href="formation.html">Formations</a>
             <a href="centre_interet.html" class="active">Centres d'intérêt</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
     </header>
 
     <section class="interests">
-        <h1>Mes Centres d'Intérêt</h1>
+        <h1>Centres d'intérêt</h1>
         <div class="interests-grid">
             <div class="interest-item">
-                <i class="fa-solid fa-book"></i>
+                <i class="fa-solid fa-book-open"></i>
                 <h2>Lecture</h2>
-                <p>Lecture, réseaux sociaux</p>
+                <p>Passionnée de lecture, notamment dans les domaines du développement personnel et des nouvelles technologies</p>
             </div>
             <div class="interest-item">
-                <i class="fa-solid fa-running"></i>
+                <i class="fa-solid fa-person-running"></i>
                 <h2>Sports</h2>
-                <p>Marche en équipe, natation</p>
+                <p>Marche en équipe et natation — des activités qui cultivent l'endurance et l'esprit collectif</p>
             </div>
             <div class="interest-item">
                 <i class="fa-solid fa-utensils"></i>
-                <h2>Cuisine</h2>
-                <p>Cuisine du monde</p>
-            </div>
-            <div class="interest-item">
-                <i class="fa-solid fa-hands-helping"></i>
-                <h2>Vie Associative</h2>
-                <p>Membre d'associations humanitaires (ODO D’OYIN)</p>
+                <h2>Cuisine du monde</h2>
+                <p>Exploration des gastronomies internationales, reflet d'une ouverture sur les cultures et le monde</p>
             </div>
         </div>
     </section>
+    <script src="nav.js"></script>
 </body>
 </html>

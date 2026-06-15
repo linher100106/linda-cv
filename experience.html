@@ -3,122 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Expériences</title>
+    <title>Expériences — Linda SOHOUENOU</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo"></a>
-        <nav>
-            <a href="index.html">Home</a>
+        <a href="index.html" class="logo">Linda SOHOUENOU</a>
+        <nav id="navbar">
+            <a href="index.html">Accueil</a>
             <a href="experience.html" class="active">Expériences</a>
             <a href="competence.html">Compétences</a>
             <a href="formation.html">Formations</a>
             <a href="centre_interet.html">Centres d'intérêt</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
     </header>
+
     <section class="experience">
-        <h2>Mes Expériences</h2>
+        <h2>Expériences Professionnelles</h2>
+
         <ul class="timeline">
+
+            <!-- Poste actuel -->
             <li class="timeline-item">
                 <div class="timeline-date">
-                    <span class="date"> 2024- à ce jour</span>
-                    <span class="company">ISI-APP LYON</span>
+                    <span class="date">Juillet 2025 – aujourd'hui</span>
+                    <span class="company">GWS – CLEVA SOLUTIONS</span>
                 </div>
                 <div class="timeline-details">
-                    <h3> Stagiaire en tests logiciels</h3>
+                    <h3>Consultant QA Fonctionnel</h3>
+                    <p><strong>Projet Stella</strong> — Support ADP</p>
                     <ul>
-                        <p>Tests fonctionnels:</p>
-                        <li> Concevoir et mettre en place des tests fonctionnels afin de garantir le bon fonctionnement des 
-                            différentes fonctionnalités du logiciel ISI-APP.</li>
-                        <li>Réaliser des scénarios de tests fonctionnels.</li>
-                        <li>Réaliser des tests avec tous les profils utilisateurs et administrateurs afin de vérifier la conformité avec les spécifications ( cahier de charges ) </li>
-                        <li>Exécuter des tests manuels avec le profil standard Julie Bresolin.</li>
-                        <li>Tester l’IA ticket et la fonctionnalité Parc Immobilier du logiciel ISI-APP</li>
-                        <li>Reproduire et résoudre avec les développeurs les anomalies détectées.</li>
+                        <li>Périmètres : Prestation santé, Prévoyance individuelle et collective, Prévoyance incapacité et invalidité — Alptis, Relyens, Groupama, Owello</li>
+                        <li>Déroulement des campagnes de TNR (Tests de Non-Régression)</li>
+                        <li>Mise à jour et maintenance des cas de tests</li>
+                        <li>Tests API (Postman, SoapUI) et analyse des résultats</li>
+                        <li>Documentation et analyse des anomalies avant transmission aux équipes de développement</li>
+                        <li>Suivi des anomalies jusqu'à clôture et traitement des fiches de report</li>
                     </ul>
-                    <ul>
-                    <p>Tests automatisés:</p>
-                        <li>Mettre en place et exécuter des tests automatisés des interfaces API (Laravel) avec PHPUnit.</li>
-                        <li>Tester les interfaces utilisateur (LoginTest, RegisterTest, LegalEntityTest...).</li>
-                        <li>Rédiger et analyser les rapports de test </li>
-                       
-                    </ul>
-                    <ul>
-                    <p>Tâches générales:</p>
-                        <li>Rédiger et analyser les rapports de tests- émettre des tickets de suivi dans le logiciel ISI-App. </li>
-                        <li>Collaborer avec l’équipe de développement pour améliorer la couverture des tests.</li>
-                        <li>Participer à des réunions Agile/Scrum pour suivre les tests et discuter des priorités. </li>
-                        <li>Participer au daily pour fixer les objectifs du jour, réajuster les points et résoudre les problèmes.</li>
-                    </ul>
-                    <p><strong>Environnement</strong>: Base de donneés : Maria db,  framework : Laravel 11, php 8.3</p>
-                   <p><strong>OUTILS DE TESTS</strong>: Laravel dusk, laravel pest, Visual studio code    </p>
+                    <p><strong>Environnement :</strong> Agile/Scrum, Jira, Confluence, Postman, SoapUI, DBeaver, SQL, Bitvise SSH Client, RCP, GIT</p>
                 </div>
             </li>
+
+            <!-- POEI -->
             <li class="timeline-item">
                 <div class="timeline-date">
-                    <span class="date">2024</span>
-                    <span class="company">IT-AKADEMY LYON</span>
+                    <span class="date">Mai 2025 – Juillet 2025</span>
+                    <span class="company">GWS – CLEVA SOLUTION (POEI)</span>
                 </div>
                 <div class="timeline-details">
-                    <h3>Chargée de la Conception et de l'Automatisation des Tests</h3>
+                    <h3>Consultant QA Fonctionnel</h3>
+                    <p><strong>Projet Stella</strong> — Évolution du système cœur métier PRO BTP avec intégration CLEVA v17</p>
                     <ul>
-                        <li>Concevoir et automatiser les tests de l’application EverShop</li>
+                        <li>Périmètres : Prévoyance individuelle et collective, ADSN, Produits</li>
+                        <li>Analyse fonctionnelle des évolutions et nouvelles fonctionnalités</li>
+                        <li>Conduite des campagnes de tests TNR</li>
+                        <li>Actualisation et enrichissement des cas de tests</li>
+                        <li>Gestion des anomalies de la détection jusqu'à la correction</li>
+                        <li>Reporting régulier auprès des équipes projet</li>
                     </ul>
-                    <p><strong>Environnement :</strong> Selenium, Pytest, GitHub, CI/CD</p>
+                    <p><strong>Environnement :</strong> Agile/Scrum, Jira, Confluence, Postman, SoapUI, DBeaver, SQL, GIT</p>
                 </div>
             </li>
+
+            <!-- Stage ISI-APP -->
             <li class="timeline-item">
                 <div class="timeline-date">
-                    <span class="date">2023</span>
-                    <span class="company">SHIVA</span>
+                    <span class="date">Novembre 2024 – Février 2025</span>
+                    <span class="company">ISI-APP — Lyon</span>
                 </div>
                 <div class="timeline-details">
-                    <h3>Gestion de la Qualité et de la Relation Client</h3>
+                    <h3>Stagiaire en Tests Logiciels</h3>
+                    <p>Rattachée au service développement au sein d'une équipe Agile/Scrum</p>
                     <ul>
-                        <li>Garantir la qualité des services et la satisfaction des clients en conformité avec les engagements</li>
-                        <li>Gérer les retours clients, les plannings et les formations des collaborateurs</li>
-                        <li>Mettre en place des processus d'amélioration continue basés sur l'analyse des performances et les retours des clients</li>
+                        <li>Rédaction et réalisation de scénarios de tests fonctionnels (profils utilisateurs et administrateurs)</li>
+                        <li>Tests manuels avec profil Julie BRESSOLIN</li>
+                        <li>Tests de régression et de non-régression</li>
+                        <li>Test de l'IA ticket et de la fonctionnalité parc immobilier du logiciel ISI-APP</li>
+                        <li>Test des interfaces utilisateur : LoginTest, RegisterTest, LegalEntityTest…</li>
+                        <li>Diagnostic des anomalies et signalement de bugs</li>
+                        <li>Participation aux réunions hebdomadaires et dailys Agile</li>
                     </ul>
-                    <p><strong>Environnement :</strong> Word, Excel, PowerPoint</p>
+                    <p><strong>Environnement :</strong> Laravel 11, PHP 8.3, MariaDB, Laravel Dusk, Laravel Pest, Visual Studio Code, GIT</p>
                 </div>
             </li>
-            <li class="timeline-item">
-                <div class="timeline-date">
-                    <span class="date">2018 - 2021</span>
-                    <span class="company">SBEE (Secteur énergétique)</span>
-                </div>
-                <div class="timeline-details">
-                    <h3>Gestion des Activités Commerciales et de la Clientèle</h3>
-                    <ul>
-                        <li>Élaborer la stratégie commerciale</li>
-                        <li>Suivre les indicateurs de performance et effectuer le reporting</li>
-                        <li>Piloter les initiatives produits et donner des feedbacks sur les nouvelles fonctionnalités</li>
-                        <li>Communiquer et collaborer avec les équipes techniques (Slack, Microsoft Teams, Asana)</li>
-                    </ul>
-                    <p><strong>Environnement :</strong> Word, Excel, Salesforce</p>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="timeline-date">
-                    <span class="date">2010 - 2018</span>
-                    <span class="company">SBEE (Secteur énergétique)</span>
-                </div>
-                <div class="timeline-details">
-                    <h3>Pilotage de Projet</h3>
-                    <ul>
-                        <li>Analyser les besoins et exigences des abonnés</li>
-                        <li>Gérer les plaintes de la clientèle</li>
-                        <li>Piloter les projets et l’avancement des tâches</li>
-                        <li>Collecter les données socio-économiques et animer l’équipe d’intermédiation sociale</li>
-                        <li>Automatiser les tâches du back-office et du front-office</li>
-                        <li>Développer le portefeuille clients</li>
-                    </ul>
-                    <p><strong>Environnement :</strong> Word, Excel, Teamwork</p>
-                </div>
-            </li>
+
         </ul>
-    </section> 
+    </section>
+    <script src="nav.js"></script>
 </body>
 </html>

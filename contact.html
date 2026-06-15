@@ -3,45 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
+    <title>Contact — Linda SOHOUENOU</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">SOHOUENOU Linda</a>
-        <nav>
-            <a href="index.html">Home</a>
+        <a href="index.html" class="logo">Linda SOHOUENOU</a>
+        <nav id="navbar">
+            <a href="index.html">Accueil</a>
             <a href="experience.html">Expériences</a>
             <a href="competence.html">Compétences</a>
             <a href="formation.html">Formations</a>
             <a href="centre_interet.html">Centres d'intérêt</a>
             <a href="contact.html" class="active">Contact</a>
         </nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
     </header>
+
     <section class="contact">
         <h1>Contactez-moi</h1>
-        
+
         <div class="contact-info">
+
             <div class="contact-item">
-                <h2>Mon numéro</h2>
-                <p>+33 6 48 59 55 34</p>
+                <h2><i class="fa-solid fa-phone"></i> Téléphone</h2>
+                <p><a href="tel:+33648595534" style="color: #ddd; text-decoration: none;">+33 6 48 59 55 34</a></p>
             </div>
+
             <div class="contact-item">
-                <h2>Envoyez-moi un email</h2>
+                <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+                <p><a href="mailto:herlin100106@gmail.com" style="color: #ddd; text-decoration: none;">herlin100106@gmail.com</a></p>
+            </div>
+
+            <div class="contact-item">
+                <h2><i class="fa-solid fa-location-dot"></i> Localisation</h2>
+                <p>Villeurbanne (69)</p>
+            </div>
+
+            <div class="contact-item">
+                <h2><i class="fa-brands fa-linkedin"></i> LinkedIn</h2>
                 <p>
-                    herlin100106@gmail.com
+                    <a href="https://www.linkedin.com/in/linda-sohouenou-testeuselogicielsqal" target="_blank" rel="noopener noreferrer" style="color: #b74b4b; text-decoration: none;">
+                        linkedin.com/in/linda-sohouenou-testeuselogicielsqal
+                    </a>
                 </p>
             </div>
-            <div class="contact-item">
-                <h2>Localisation</h2>
-                <p>Villeurbanne</p>
-            </div>
+
         </div>
 
-        
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/linda-sohouenou-testeuselogicielsqal" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:herlin100106@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
     </section>
-
-    <!-- Font Awesome JS (pour les icônes) -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>
